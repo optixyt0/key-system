@@ -1,6 +1,13 @@
 {
     "products": [
     {
+        "//": "Example",
+        "name": "Fortnite",
+        "publisher": "Epic Games",
+        "imageURL": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Fortnite_F_lettermark_logo.png",
+        "price": "$0"
+    },
+    {
         "name": "Idk",
         "publisher": "Add here",
         "imageURL": "",
