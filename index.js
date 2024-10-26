@@ -6,7 +6,7 @@ const keys = require("./models/keys.js");
 const products = require("./response/products.json");
 const purchased = require("./models/products.js");
 const PORT = process.env.PORT || 65532;
-const DB_URL = process.env.DB_URL || "mongodb://127.0.0.1/Tivan"
+const DB_URL = process.env.DB_URL || "mongodb://127.0.0.1/Key"; // i was gonna give this to tivan fr
 
 function makeKeySection(length) {
     let result = '';
