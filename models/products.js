@@ -8,7 +8,7 @@ const productsSchema = new mongoose.Schema({
             datePurchased: { type: Date, default: Date.now }
         }
     ]
-}, { collection: "last-online" });
+}, { collection: "products" });
 
 const products = mongoose.model("products", productsSchema);
 
