@@ -1,0 +1,16 @@
+{
+  "name": "tivanapi",
+  "version": "0.1.0",
+  "description": "An API for the Tivan Launcher",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "author": "OptiX",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "mongoose": "^8.7.3"
+  }
+}
